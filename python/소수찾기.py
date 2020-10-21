@@ -6,34 +6,32 @@ import itertools
 import math
 
 def primeNumber(num):
-    if num < 2:
+    if num <2:
         return False
     for i in range(2,int(math.sqrt(num))+1):
-        if num%i ==0:
+        if num%i==0:
             return False
     return True
 
 def solution(numbers):
-    #원소 하나씩 넣는것만으로 문자열을 문자 리스트로
-    a = [i for i in numbers]
-    #조합
-    numbers = [list(map(''.join,itertools.permutations(a,i))) for i in range(1,len(a)+1)]
-    #조합후 int 타입으로
-    numbers = [list(map(int,numbers[i])) for i in range(len(numbers))]
+    #str을 리스트 요소로 분리하고
+    numbers = [i for i in numbers]
 
-    #중복 제거할 집합 변수
-    mySet = set()
+    #그 리스트를 조합하고,
+    numbers = [list(map(''.join,itertools.permutations(numbers,i))) for i in range(1,len(numbers)+1)]
 
-    #변수 삽입
-    for i in range(0,len(numbers)):
-        for j in range(0,len(numbers[i])):
-            mySet.add(numbers[i][j])
+    #조합한걸 중복을 없애고 (집합으로 변하고))
+    numbersSet=set()
+    for i in range(len(numbers)):
+        for j in range(len(numbers[i])):
+            numbersSet.add(int(numbers[i][j]))
 
-    #집합을 리스트로
-    mySet = list(mySet)
+    #집합을 다시 리스트로,
+    numbers = list(numbersSet)
 
+    #요소별로 검사
     answer = 0
-    for number in mySet:
+    for number in numbers:
         if primeNumber(number):
             answer +=1
     return answer
