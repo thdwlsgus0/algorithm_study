@@ -12,3 +12,4 @@
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42839 소수찾기(완전탐색)
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/43163 단어변환 (DFS/BFS)
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42579 베스트 앨범 (해시)
+- 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42577?language=python3# 전화번호 목록 (해시)
