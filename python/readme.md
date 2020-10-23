@@ -14,3 +14,4 @@
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42579 베스트 앨범 (해시)
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42577?language=python3# 전화번호 목록 (해시)
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42842 카펫 (완전탐색)
+- 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/43238 입국심사 (이분탐색)
