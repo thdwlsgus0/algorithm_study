@@ -11,4 +11,4 @@
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42586 기능개발
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/12906 같은 숫자는 싫어
 - 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/42839 소수 찾기
-- 프로그래머스 
+- 프로그래머스 https://programmers.co.kr/learn/courses/30/lessons/12937?language=javascript 짝수와 홀수
