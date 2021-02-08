@@ -7,3 +7,4 @@
 
 ---
 - 백준 https://www.acmicpc.net/problem/9019 DSLR문제(BFS, DFS)
+- 백준 https://www.acmicpc.net/problem/1012 유기농배추 문제(BFS, DFS)
