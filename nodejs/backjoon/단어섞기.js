@@ -13,6 +13,7 @@ const bfs = () =>{
         flag = true;
         return;
     }
+    console.log(fI, sI);
     if(!visited[fI+1][sI] && third[tI] === first[fI]){
       visited[fI+1][sI] = 1;
       q.unshift([fI+1, sI, tI+1]);
