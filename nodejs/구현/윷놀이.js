@@ -4,7 +4,7 @@ const input = fs.readFileSync('/dev/stdin').toString().split('\n');
 
 let arr = ['E', 'A', 'B', 'C', 'D'];
 
-for(let i=0; i<input.length-1; i++){
+for(let i=0; i<input.length-1; i++){dd
   const count = input[i].split(' ')
                         .map((v)=>+v)
                         .filter((v)=> v===0).length;
